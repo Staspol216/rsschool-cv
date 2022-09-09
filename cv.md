@@ -21,7 +21,20 @@ Now I have a year of experience working in a company in the position "junior fro
 * Typescript
 * MJML
 
+## Code Example
+```
+function highAndLow(numbers){
+  const sortedArr = numbers.split(" ").map(n => Number(n)).sort((a,b) => a - b)
+  return sortedArr[sortedArr.length - 1] + " " + sortedArr[0]
+}
 
+```
+## Education
+* Internship in local company
+* React course by Ivan Petrichenko, Anton Larichev
+
+## Languages
+* English A2
 
 
 
