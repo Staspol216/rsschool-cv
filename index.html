@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html
+  class="page"
+  lang="en"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-wight, initial-scale=1.0"
+    />
+    <title>Stanislav Polishchuk CV</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+  <body class="page-body">
+    <header class="header">
+      <div class="header_container">
+        <nav class="header_menu">
+          <ul class="menu_list">
+            <li class="menu_item">
+              <a
+                class="menu_link"
+                href="#contact_section"
+                >Contact</a
+              >
+            </li>
+            <li class="menu_item">
+              <a
+                class="menu_link"
+                href="#education_section"
+                >Education</a
+              >
+            </li>
+            <li class="menu_item">
+              <a
+                class="menu_link"
+                href="#aboutme_section"
+                >About Me</a
+              >
+            </li>
+            <li class="menu_item">
+              <a
+                class="menu_link"
+                href="#skills_and_keystrengths_sections"
+                >Skills and Key strengths</a
+              >
+            </li>
+            <li class="menu_item">
+              <a
+                class="menu_link"
+                href="#code_example_section"
+                >Code Example</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <figure>
+        <img
+          src="img/MyPhoto.jpg"
+          width="300"
+          height="400"
+          alt="Photo of Stas Polishchuk"
+        />
+      </figure>
+      <section class="page-title">
+        <h1>Stanislav Polishchuk</h1>
+        <p>Junior Front-end Developer</p>
+      </section>
+      <section class="contact">
+        <h2
+          class="section-title"
+          id="contact_section"
+        >
+          Сontact
+        </h2>
+        <ul class="contact-list">
+          <li class="contact-list__item">
+            Phone:<a href="tel:+79129250405">+7 912 925 04 05</a>
+          </li>
+          <li class="contact-list__item">
+            Email:
+            <a href="mailto:staspol216@gmail.com">staspol216@gmail.com</a>
+          </li>
+          <li class="contact-list__item">
+            Address: Tyumen, Energetikov street
+          </li>
+        </ul>
+      </section>
+      <section class="education">
+        <h2
+          class="section-title"
+          id="education_section"
+        >
+          Education
+        </h2>
+        <ul class="education__list">
+          <li class="education__item">
+            Tyumen Industrial University (TIU),<br />
+            Geodetic Survey<br />
+            2017-2022
+          </li>
+        </ul>
+      </section>
+      <section class="about-me">
+        <h2
+          class="section-title"
+          id="aboutme_section"
+        >
+          About me
+        </h2>
+        <p>
+          Hello! My name is Stas, i'm 22 years old. I graduated from the
+          university with a degree in applied geodesy. Now I have a year of
+          experience working in a company in the position "junior frontend
+          developer".Throughout the journey, I do not lose interest in
+          development at all and constantly strive to learn something new!
+        </p>
+      </section>
+      <section class="skills">
+        <h2
+          class="section-title"
+          id="skills_and_keystrengths_sections"
+        >
+          Skills
+        </h2>
+        <ul class="skills__list">
+          <li>HTML/CSS</li>
+          <li>JavaScript</li>
+          <li>JQuery</li>
+          <li>React</li>
+          <li>Redux</li>
+          <li>Typescript</li>
+          <li>Git</li>
+          <li>English A2</li>
+        </ul>
+      </section>
+      <section class="key-strengths">
+        <h2 class="section-title">Key strengths</h2>
+        <ul class="key-strengths__list">
+          <li>Communicative</li>
+          <li>Sociable</li>
+          <li>Responsible</li>
+          <li>Hardworking</li>
+          <li>Quik learner</li>
+        </ul>
+      </section>
+      <section class="code-example">
+        <h2
+          class="section-title"
+          id="code_example_section"
+        >
+          Code Example
+        </h2>
+        <code>
+          function highAndLow(numbers){ const sortedArr = numbers.split("")
+          .map(n => Number(n)).sort((a,b) => a - b) return
+          sortedArr[sortedArr.length - 1] + " " + sortedArr[0] }
+        </code>
+      </section>
+    </main>
+    <footer class="footer">
+      <a
+        class="footer__github"
+        href="https://github.com/Staspol216"
+      >
+        My Github
+      </a>
+      <p class="footer__year">2022</p>
+      <a
+        class="footer__rsschool"
+        href="https://rs.school/js/"
+      >
+        <img
+          src="img/rs_school_js.svg"
+          width="100"
+          height="46"
+          alt="RS School"
+        />
+      </a>
+    </footer>
+  </body>
+</html>

@@ -1,1 +1,1 @@
-https://Staspol216.github.io/rsschool-cv/cv
+https://Staspol216.github.io/rsschool-cv/
