@@ -32,36 +32,40 @@
       href="style.css"
     />
   </head>
-  <body>
-    <header>
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <a href="#contact_section">Contact</a>
+  <body class="page-body">
+    <header class="header">
+      <div class="header_container">
+        <nav class="header_menu">
+          <ul class="menu_list">
+            <li class="menu_item">
+              <a
+                class="menu_link"
+                href="#contact_section"
+                >Contact</a
+              >
             </li>
-            <li>
+            <li class="menu_item">
               <a
                 class="menu_link"
                 href="#education_section"
                 >Education</a
               >
             </li>
-            <li>
+            <li class="menu_item">
               <a
                 class="menu_link"
                 href="#aboutme_section"
                 >About Me</a
               >
             </li>
-            <li>
+            <li class="menu_item">
               <a
                 class="menu_link"
                 href="#skills_and_keystrengths_sections"
                 >Skills and Key strengths</a
               >
             </li>
-            <li>
+            <li class="menu_item">
               <a
                 class="menu_link"
                 href="#code_example_section"
@@ -81,33 +85,52 @@
           alt="Photo of Stas Polishchuk"
         />
       </figure>
-      <section>
+      <section class="page-title">
         <h1>Stanislav Polishchuk</h1>
         <p>Junior Front-end Developer</p>
       </section>
-      <section>
-        <h2 id="contact_section">Сontact</h2>
-        <ul>
-          <li>Phone:<a href="tel:+79129250405">+7 912 925 04 05</a></li>
-          <li>
+      <section class="contact">
+        <h2
+          class="section-title"
+          id="contact_section"
+        >
+          Сontact
+        </h2>
+        <ul class="contact-list">
+          <li class="contact-list__item">
+            Phone:<a href="tel:+79129250405">+7 912 925 04 05</a>
+          </li>
+          <li class="contact-list__item">
             Email:
             <a href="mailto:staspol216@gmail.com">staspol216@gmail.com</a>
           </li>
-          <li>Address: Tyumen, Energetikov street</li>
+          <li class="contact-list__item">
+            Address: Tyumen, Energetikov street
+          </li>
         </ul>
       </section>
-      <section>
-        <h2 id="education_section">Education</h2>
-        <ul>
-          <li>
+      <section class="education">
+        <h2
+          class="section-title"
+          id="education_section"
+        >
+          Education
+        </h2>
+        <ul class="education__list">
+          <li class="education__item">
             Tyumen Industrial University (TIU),<br />
             Geodetic Survey<br />
             2017-2022
           </li>
         </ul>
       </section>
-      <section>
-        <h2 id="aboutme_section">About me</h2>
+      <section class="about-me">
+        <h2
+          class="section-title"
+          id="aboutme_section"
+        >
+          About me
+        </h2>
         <p>
           Hello! My name is Stas, i'm 22 years old. I graduated from the
           university with a degree in applied geodesy. Now I have a year of
@@ -116,9 +139,14 @@
           development at all and constantly strive to learn something new!
         </p>
       </section>
-      <section>
-        <h2 id="skills_and_keystrengths_sections">Skills</h2>
-        <ul>
+      <section class="skills">
+        <h2
+          class="section-title"
+          id="skills_and_keystrengths_sections"
+        >
+          Skills
+        </h2>
+        <ul class="skills__list">
           <li>HTML/CSS</li>
           <li>JavaScript</li>
           <li>JQuery</li>
@@ -129,9 +157,9 @@
           <li>English A2</li>
         </ul>
       </section>
-      <section>
-        <h2>Key strengths</h2>
-        <ul>
+      <section class="key-strengths">
+        <h2 class="section-title">Key strengths</h2>
+        <ul class="key-strengths__list">
           <li>Communicative</li>
           <li>Sociable</li>
           <li>Responsible</li>
@@ -139,8 +167,13 @@
           <li>Quik learner</li>
         </ul>
       </section>
-      <section>
-        <h2 id="code_example_section">Code Example</h2>
+      <section class="code-example">
+        <h2
+          class="section-title"
+          id="code_example_section"
+        >
+          Code Example
+        </h2>
         <code>
           function highAndLow(numbers){ const sortedArr = numbers.split("")
           .map(n => Number(n)).sort((a,b) => a - b) return
@@ -148,10 +181,18 @@
         </code>
       </section>
     </main>
-    <footer>
-      <a href="https://github.com/Staspol216"> My Github </a>
-      <p>2022</p>
-      <a href="https://rs.school/js/">
+    <footer class="footer">
+      <a
+        class="footer__github"
+        href="https://github.com/Staspol216"
+      >
+        My Github
+      </a>
+      <p class="footer__year">2022</p>
+      <a
+        class="footer__rsschool"
+        href="https://rs.school/js/"
+      >
         <img
           src="img/rs_school_js.svg"
           width="100"
